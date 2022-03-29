@@ -36,7 +36,6 @@ dat_zc %>% t_test(
   ) 
 
 ## histogram before vs after
-
 fighisto <-function(X,Y){
 dat_zf %>% ggplot() +
   aes(x = {{X}}) +
@@ -449,4 +448,5 @@ dat_zf %>% filter(Group == "B") %>%
   aes(x=B_total_agg, y=N, fill=after_exercise) +
   geom_bar(stat = "identity") +
   theme_ipsum(base_family = "HiraKakuPro-W3")+labs(title = "B群_運動")
+
 
