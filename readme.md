@@ -1,5 +1,6 @@
 ## About this repository
-* This repository for R scrypt of minacare project R2-R4 collabo-collabo
+This repository for R scrypt of minacare project R3-R4 collabo-collabo
+
 
 ## File Description
 |file name   | description  |
